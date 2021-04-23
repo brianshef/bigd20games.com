@@ -17,33 +17,38 @@
 
 </head>
 
-<body>
+<body class="text-dark bg-light">
   <!-- Navbar -->
   <header>
-    <nav class="navbar navbar-dark" style="background-color: #b71c1c">
+    <nav id="navbar" class="navbar navbar-dark" style="background-color: #b71c1c">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
         <img src="https://cdn0.iconfinder.com/data/icons/video-game-items-concepts-line-art/128/dd-dice-512.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
           BigD20 Games
         </a>
+        <ul class="nav nav-pills justify-content-end" role="tablist">
+          <li class="nav-item m-1" role="presentation">
+            <a class="btn btn-outline-light" href="https://blog.bigd20games.com" role="button">Blog</a>
+          </li>
+          <li class="nav-item m-1" role="presentation">
+            <a class="btn btn-outline-light" href="https://www.youtube.com/channel/UCdw7fPDta" role="button">Videos</a>
+          </li>
+          <li class="nav-item m-1" role="presentation">
+            <a class="btn btn-outline-light" href="https://anchor.fm/bigd20games" role="button">Podcast</a>
+          </li>
+        </ul>
       </div>
     </nav>
   </header>
   
   <!-- Main content -->  
-  <main>
+  <main data-bs-spy="scroll" data-bs-target="#navbar">
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img src="https://legacyofmordalus.github.io/campaign/assets/images/legacyofmordalus.png" class="d-block mx-lg-auto img-fluid" alt="Legacy of Mordalus skull" width="700" height="500" loading="lazy">
-        </div>
-        <div class="col-lg-6">
-          <h1 class="display-5 fw-bold lh-1 mb-3">BigD20 Games</h1>
-          <p class="lead">Experienced tabletop roleplayers, and our experiences roleplaying. Featuring blogs, podcasts, streams, and adventures where crit happens! Coming soon...</p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-<!--             <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button> -->
-<!--             <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button> -->
-          </div>
+        <div class="col-12">
+          <h1 class="display-1 lh-1 mb-3" style="color:#b71c1c">BigD20 Games</h1>
+          <p class="display-6">Experienced tabletop roleplayers, and our experiences roleplaying. Featuring blogs, podcasts, streams, and adventures where crit happens!</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start"></div>
         </div>
       </div>
     </div>
@@ -53,64 +58,37 @@
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
-      
-      <!-- START THE FEATURETTES -->
 
-      <hr class="featurette-divider">
+      <!-- Three columns of text below the hero -->
+      <div class="row text-center">
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" src="https://cdn.icon-icons.com/icons2/390/PNG/512/tied-scroll_38786.png" width="140" height="140" />
+          <a href="https://blog.bigd20games.com" style="color:#b71c1c; text-decoration:none"><h2 class="display-5">The Blog</h2></a>
+          <p>Oh you better believe we got a blog. The entire BigD20 Games family is able to publish blog posts. Sometimes they're even worth reading!.</p>
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">The Blog. <span class="text-muted">Read it!</span></h2>
-          <p class="lead">Oh you better believe we got a blog. The entire BigD20 Games family is able to publish blog posts. Sometimes they're even worth reading!.</p>
-        </div>
-        <div class="col-md-5">
-          <a href="https://blog.bigd20games.com">
-            <svg class="bd-placeholder-img rounded-circle" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">Blog</text></svg>
-          </a>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Videos. <span class="text-muted">Watch them!</span></h2>
-          <p class="lead">Yeah, we have a YouTube channel, too. It's for our current homebrew campaign, Legacy of Mordalus. There's probably at least three videos on there.</p>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <a href="https://www.youtube.com/channel/UCdw7fPDta-4A4br7g8KNMYw">
-            <svg class="bd-placeholder-img rounded-circle" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">Videos</text></svg>
-          </a>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Podcast. <span class="text-muted">Listen!</span></h2>
-          <p class="lead">Bear with us, we're new to podcasting. But we are excited to be big time professional podcasters as soon as we figure it out! In the meantime, enjoy whatever bonus podcast episodes we make.</p>
-        </div>
-        <div class="col-md-5">
-          <a href="https://anchor.fm/bigd20games">
-            <svg class="bd-placeholder-img rounded-circle" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">Podcast</text></svg>
-          </a>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" src="https://static.thenounproject.com/png/516774-200.png" width="140" height="140" />
+          <a href="https://www.youtube.com/channel/UCdw7fPDta" style="color:#b71c1c; text-decoration:none"><h2 class="display-5">The Videos</h2></a>
+          <p>Yeah, we have a YouTube channel, too. It's for our current homebrew campaign, Legacy of Mordalus. There's probably at least three videos on there.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" src="https://cdn.icon-icons.com/icons2/390/PNG/512/hunting-horn_39089.png" width="140" height="140" />
+          <a href="https://anchor.fm/bigd20games" style="color:#b71c1c; text-decoration:none"><h2 class="display-5">The Podcast</h2></a>
+          <p>Bear with us, we're new to podcasting. But we are excited to be big time professional podcasters as soon as we figure it out! In the meantime, enjoy whatever bonus podcast episodes we make.</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
     </div><!-- /.container marketing -->
     
     
-    <!-- FOOTER -->
-    <footer class="container">
-      <p class="float-end"><a href="#">Back to top</a></p>
-      <p>&copy; 2017–2021 BigD20 Games &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-    </footer>
+    
   </main>
+
+  <!-- FOOTER -->
+  <footer class="fixed-bottom container text-muted">
+    <p class="float-end"><a href="#" style="color:#b71c1c; text-decoration:none">Back to top</a></p>
+    <p>&copy; 2017–2021 BigD20 Games &middot; <a href="#" style="color:#b71c1c; text-decoration:none">Privacy</a> &middot; <a href="#" style="color:#b71c1c; text-decoration:none">Terms</a></p>
+  </footer>
   
   
   <!-- JavaScript -->
